@@ -299,9 +299,10 @@ nav.navbar.shrink .navbar-toggler {
     font-size: 1em;
     padding: 1.1em 0 1.25em;
     display: block;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 1em;
     letter-spacing: 2px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 }
 
 .banner-content h3 {
@@ -570,6 +571,9 @@ h3.tittle {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 2px;
+}
+.advantage_left p {
+    /*-- color: #000; --*/
 }
 /*-- choose --*/
 .choose{
@@ -1087,6 +1091,7 @@ ul.scial{
 /*--//footer--*/
 
 /*-- to-top --*/
+
 
 #toTop {
     display: none;
