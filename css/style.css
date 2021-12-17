@@ -577,7 +577,7 @@ h3.tittle {
 }
 /*-- choose --*/
 .choose{
-	background: url(../images/bg1.jpg) no-repeat;
+	background: url(../images/bg1.png) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -618,7 +618,7 @@ h3.tittle {
 }
 /*-- //choose --*/
 .clients{
-	background: url(../images/bg2.jpg) no-repeat;
+	background: url(../images/bg2.png) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
