@@ -109,7 +109,7 @@ h1 a.navbar-brand {
 }
 
 .logo {
-    max-width: 40%;
+    max-width: 32%;
     height: auto;
 }
 
@@ -870,7 +870,6 @@ section.bottom-last h3 {
 }
 
 .feedback-img-info {
-    float: left;
     width: 65%;
     margin: 1em 0 0 2em;
 }
@@ -881,6 +880,7 @@ section.bottom-last h3 {
     letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .feedback-img-info p {
@@ -1669,4 +1669,32 @@ h1 a.navbar-brand {
 }
 }
 
+.owl-prev {
+    width: 100px;
+    height: 100px;
+}
+
+.owl-next {
+    width: 100px;
+    height: 100px;
+}
+.owl-prev i, .owl-next i {font-size: 2em; color: #000;}
+
+.feedback-grids {
+    margin: auto;
+    width: 50%;
+}
+
+.colosseum-image {
+    height: 35px;
+    width: 35px;
+    background: url("../images/colosseum.png") no-repeat;
+    display: inline-block;
+    
+}
+
+.colosseum-div:hover .colosseum-image {
+    background: url("../images/colosseum-alt.png") no-repeat;
+    
+}
 /*--//responsive--*/
