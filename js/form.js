@@ -8,8 +8,8 @@ const handleSubmit = (e) => {
     body: new URLSearchParams(formData).toString(),
   })
     .then(() => {
-      alert("Form successfully submitted");
       contactForm.reset();
+      alert("Form successfully submitted");
     })
     .catch((error) => alert(error));
 };
