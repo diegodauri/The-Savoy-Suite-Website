@@ -7,7 +7,10 @@ const handleSubmit = (e) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => alert("Form successfully submitted"))
+    .then(() => {
+      alert("Form successfully submitted");
+      contactForm.reset();
+    })
     .catch((error) => alert(error));
 };
 
